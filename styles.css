@@ -1,20 +1,20 @@
 body{
-    height: 734px;
     background-color: hsl(212, 45%, 89%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .container{
     border-radius: 16px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:  translate(-50%, -50%);
     width: 300px;
     height: 450px;
     display: grid;
     grid-template-rows: repeat(3, 2fr);
     background-color: hsl(0, 0%, 100%);
     overflow:visible;
-    box-shadow: 5px 5px 8px #888888;
+    box-shadow: 1px 1px 1px #888888;
 }
 .qr-holder{
     height: 250px;
